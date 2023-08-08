@@ -6,8 +6,10 @@
 
 <header>
     <div class="logo">
-        <p class="logo-1">/maximilian</p>
-        <p class="logo-2">wey</p>
+        <a href="/">
+            <p class="logo-1">/maximilian</p>
+            <p class="logo-2">wey</p>
+        </a>
     </div>
     <nav class="navbar">
         <ul>
