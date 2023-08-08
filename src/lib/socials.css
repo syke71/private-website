@@ -7,6 +7,10 @@
     position: relative;
 }
 
+.socials-container ul {
+    padding-top: 3em;
+}
+
 .socials-container h3 {
     float: inline-start;
     font-size: 26px;
@@ -16,10 +20,6 @@
     text-decoration-thickness: 5px;
 }
 
-.socials-container ul {
-    padding-top: 15px;
-}
-
 .socials-container li, a {
     list-style: none;
     padding: 10px 0px;
@@ -27,15 +27,27 @@
     text-decoration: none;
 }
 
-.socials-container a {
-    list-style: none;
-    padding: 10px 0px;
-    padding-left:4px;
-    color: var(--color-theme);
-    cursor: pointer;
+.social-button {
+    font-size: 1em;
+    border: 2px hidden var(--color-theme);
+    border-radius: 10px;
+    padding: 9px 25px;
+    background-color: #212529;
 }
 
-.socials-container a:hover {
-    color: #fff;
-    transition: all 0.4s ease 0s;
+.social-button:hover {
+    background-color: #874a46;
+}
+
+.social-button svg {
+    fill: var(--color-theme);
+    float: left;
+    width: 2em;
+    margin-right: 1em;
+}
+
+.social-button p {
+    float: right;
+    color: var(--color-theme);
+    font-weight: bold;
 }
