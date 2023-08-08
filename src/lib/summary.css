@@ -1,0 +1,47 @@
+:root {
+    --image-size: 140px;
+    --title-padding-top: calc(var(--image-size) / 4);
+    --border-size: 94%; /* Smaller number -> larger border*/
+    --border-color: #fd5e53;
+    --image-offset: calc(calc(100% - var(--border-size)) / 2);
+}
+
+.summary-container {
+    
+    margin-bottom: 12vh; /* FLEXBOX*/
+    position: relative;
+}
+
+.summary-container h1 {
+    position: relative;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 1.5px;
+    padding-bottom: 5px;
+    padding-top: var(--title-padding-top);
+}
+
+.summary-container p {
+    letter-spacing: 0.6px;
+}
+
+.summary-image {
+    background-color: var(--border-color);
+    clip-path: circle(50% at 50% 50%);
+    position: relative;
+    width: var(--image-size);
+    height: var(--image-size);
+    float: right;
+    text-align: center;
+    
+}
+
+.summary-image img {
+    clip-path: circle(50% at 50% 50%);
+    width: var(--border-size);
+    height: var(--border-size);
+    object-fit: cover;
+    position: absolute;
+    left: var(--image-offset);
+    top: var(--image-offset);
+} 

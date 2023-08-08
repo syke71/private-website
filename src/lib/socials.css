@@ -1,0 +1,41 @@
+:root {
+    --color-theme: #fd5e53;
+}
+
+.socials-container {
+    margin-bottom: 12vh; /* FLEXBOX*/
+    position: relative;
+}
+
+.socials-container h3 {
+    float: inline-start;
+    font-size: 26px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: #525252;
+    text-decoration-thickness: 5px;
+}
+
+.socials-container ul {
+    padding-top: 15px;
+}
+
+.socials-container li, a {
+    list-style: none;
+    padding: 10px 0px;
+    padding-left:4px;
+    text-decoration: none;
+}
+
+.socials-container a {
+    list-style: none;
+    padding: 10px 0px;
+    padding-left:4px;
+    color: var(--color-theme);
+    cursor: pointer;
+}
+
+.socials-container a:hover {
+    color: #fff;
+    transition: all 0.4s ease 0s;
+}

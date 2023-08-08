@@ -1,0 +1,39 @@
+:root {
+    --color-theme: #fd5e53;
+}
+
+.bio {
+    position: relative;
+    margin-bottom: 12vh;
+    padding: auto;
+}
+
+.bio h3 {
+    float: inline-start;
+    font-size: 26px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: #525252;
+    text-decoration-thickness: 5px;
+}
+
+.bio ul {
+    display: inline-block;
+    list-style: none;
+    padding: 20px 0px;
+    padding-left:4px;
+}
+
+.bio li, p {
+    letter-spacing: 0.6px;
+    padding: 5px 0px;
+}
+
+.bio li {
+    font-weight: bold;
+    color: var(--color-theme);
+}
+
+.bio p {
+    padding-left: 32px;
+}
