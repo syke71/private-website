@@ -14,7 +14,7 @@
     <nav class="navbar">
         <ul>
             <li><a href="/">About</a></li>
-            <li><a href="/works">Works</a></li>
+            <li><a href="/projects">Projects</a></li>
         </ul>
     </nav>
     <div>
