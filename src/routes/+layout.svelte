@@ -30,8 +30,7 @@
     .layout {
         position: relative;
         top: 25em;
-        margin-bottom: 1em;
-        border: 2px solid red;
+        /* border: 2px solid red; */
 
         display: flex;
         flex-direction: column;
