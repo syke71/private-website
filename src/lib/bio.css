@@ -1,7 +1,3 @@
-:root {
-    --color-theme: #fd5e53;
-}
-
 .bio {
     position: relative;
     margin-bottom: 8vh;
@@ -31,7 +27,7 @@
 
 .bio li {
     font-weight: bold;
-    color: var(--color-theme);
+    color: var(--layout-color);
 }
 
 .bio p {

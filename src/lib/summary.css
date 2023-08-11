@@ -2,7 +2,7 @@
     --image-size: 140px;
     --title-padding-top: calc(var(--image-size) / 4);
     --border-size: 94%; /* Smaller number -> larger border*/
-    --border-color: #fd5e53;
+    --border-color: var(--layout-color);
     --image-offset: calc(calc(100% - var(--border-size)) / 2);
 }
 

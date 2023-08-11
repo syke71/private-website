@@ -1,14 +1,10 @@
-:root {
-    --color-theme: #fd5e53;
-}
-
 .notice-container {
     margin-bottom: 8vh; /* FLEXBOX*/
 
     position: relative;
     background-color: #111;
     border-radius: 10px;
-    border: 3px solid var(--color-theme);
+    border: 3px solid var(--layout-color);
     padding: 1em;
 }
 

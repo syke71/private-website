@@ -2,14 +2,26 @@
 	import Navbar from './navbar.svelte';
 	import BackgroundImg from './backgroundImg.svelte';
     import Footer from './footer.svelte';
+    import '../lib/summary.css';
+
+    import { fade } from 'svelte/transition'
+
+    export let data
+
 </script>
 
 <BackgroundImg />
 
 <div class="layout">
     
-
-    <slot />
+    {#key data.pathname}
+        <div
+            in:fade={{ duration: 300, delay: 400 }}
+            out:fade={{ duration: 300 }}
+        >
+            <slot />
+        </div>
+    {/key}
     
     <Footer />
     
@@ -25,6 +37,10 @@
         background-color: #212529;
         color: white;
 		font-family: 'Raleway', sans-serif;
+    }
+
+    :root {
+        --layout-color: #fd5e53;
     }
 
     .layout {

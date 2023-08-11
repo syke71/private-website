@@ -4,5 +4,5 @@
 </script>
 
 <div class="gif-container">
-	<img id="bgimg" src={ backgroundGif } alt='gif'/>
+	<img class="bgimg" src={ backgroundGif } alt='gif'/>
 </div>

@@ -16,12 +16,9 @@
     100% { filter: hue-rotate(0deg); }
   }
 
-#bgimg {
+.bgimg {
     position: absolute;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     height: 300px;
     object-fit: cover;
 }
